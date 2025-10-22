@@ -6,6 +6,6 @@ module com.example.demoforstudents {
     opens com.example.demoforstudents to javafx.fxml;
     exports com.example.demoforstudents;
 
-    exports quizApp;
-    opens quizApp to javafx.fxml;
+   opens csvApp to javafx.fxml;
+   exports csvApp;
 }
